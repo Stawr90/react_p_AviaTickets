@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(227, 227, 241);
+}
+
+.App {
+  color: rgba(0, 0, 0, 0.7);
+  height: 120vh;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 250px auto;
+  column-gap: 20px;
+}
